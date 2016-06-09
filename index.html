@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Erik Sundell - my resume</title>
+<!--        Öppnar för möjligheten att resizea fönstret-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+        
+        <link rel="stylesheet" type="text/css" href="css/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+        
+	<script src="js/jquery.easypiechart.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        
+        
+        <script src="js/modernizr.custom.js"></script>
+        
+    </head>
+    <body>
+        <header id="header">
+            
+            <div id="bottom-nav">
+                <img id="close-image" src="img/close.png" alt="Some alt text">
+                <nav id="main-nav" class="container">
+                    <ul id="main-nav-list">
+                        <li>
+                            <a href="#statement-wrapper">about me</a>
+                        </li>
+                        <li>
+                            <a href="#facts-wrapper">quick facts</a>
+                        </li>
+                        <li>
+                            <a href="#skills-wrapper">skills</a>
+                        </li>
+                        <li>
+                            <a href="#timeline-wrapper">timeline</a>
+                        </li>
+                        <li>
+                            <a href="#footer-wrapper">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div id="header-image-container">
+                <a href="" id='menu-expander'></a>
+                <div id="tagline">
+                    <h1>
+                        erik sundell
+                    </h1>
+                    <p id="slogan">
+<!--                        my online resume-->
+                        .NET & Web Developer
+                    </p>
+                </div>
+
+                <a class="arrow-wrap" href="#statement-wrapper" style="opacity: 1;">
+                <span class="arrow"></span>
+                </a>
+            </div>
+        </header>
+        
+        <section id="statement-wrapper">
+            <div class="container">
+                <h2>about me</h2>
+                <hr class='header-line'>
+                <img src="img/erik.png" alt="Some alt text">
+                <p style="">
+                    I am a versatile, hands-on 28 year old developer with <em>5 years</em> of experience working on a variety of small projects from conception to delivery. I am conversant in a wide range of technologies – most notably <em>C#</em> and <em>web development</em> – and follow the latest industry trends with great interest. My approach is methodical but creative, and I always look to code to the highest standards possible. I am a confident communicator and I am comfortable working either independently or as part of a team. 
+                </p>
+                <h4 style="text-align: center;">Prefer traditional CV?</h4>
+                <p id="download-link" >Click <a  href="files/CV_ErikSundell.doc" >here</a> for CV in word format,
+                and <a  href="files/CV_ErikSundell.pdf" >here</a> for the CV in PDF format</p>
+            </div>
+            <div id="arrow-container">
+                <a class="up-arrow-wrap" href="#header" style="opacity: 1;">
+                    <span class="up-arrow"></span>
+                </a>
+                <a class="down-arrow-wrap" href="#facts-wrapper" style="opacity: 1;">
+                    <span class="down-arrow"></span>
+                </a>
+            </div>
+        </section>
+        
+        <section id="facts-wrapper">
+            <div class="container">
+                <h2>quick facts</h2>
+                <hr class='header-line'>
+                <table>
+                    <tr>
+                        <td>age:</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>name:</td>
+                        <td>erik sundell</td>
+                    </tr>
+                    <tr>
+                        <td>residency</td>
+                        <td>Stockholm, Sweden</td>
+                    </tr>
+                    <tr>
+                        <td>nationality:</td>
+                        <td>swedish</td>
+                    </tr>
+                    <tr>
+                        <td>availability</td>
+                        <td>immediately</td>
+                    </tr>
+                    <tr>
+                        <td>language proficiency:</td>
+                        <td>fluent in English and Swedish. Basic French </td>
+                    </tr>
+                    <tr>
+                        <td>interests:</td>
+                        <td>sports - especially soccer and running, travelling, playing guitar and hang out with friends</td>
+                    </tr>
+                    <tr>
+                        <td>address</td>
+                        <td>Ivar Vidfamnes gata 4<br />
+                            126 52 Stockholm<br />
+                            Sweden
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>driving license:</td>
+                        <td>full, clear</td>
+                    </tr>
+                </table>
+                <div id="arrow-container">
+                    <a class="up-arrow-wrap" href="#statement-wrapper" style="opacity: 1;">
+                        <span class="up-arrow"></span>
+                    </a>
+                    <a class="down-arrow-wrap" href="#skills-wrapper" style="opacity: 1;">
+                        <span class="down-arrow"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills-wrapper">
+            <div class="container">
+                <h2>key skills</h2>
+                <hr class='header-line'>
+                <div id='DOTNET' class='skill-category'>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="100">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>ASP.NET MVC</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="100">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>C#</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="93">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>Angular.js</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="95">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>OOP</h4>
+                        </span>
+                    </div>
+                    <div id="clear"></div>
+                </div>
+                <div id='frontend' class='skill-category'>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="92">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>javascript / typescript</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="90">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>Responsive web design</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="85">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>Bootstrap</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="90">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>HTML5/CSS3</h4>
+                        </span>
+                    </div>
+                </div>
+                <div id='various' class='skill-category'>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="90">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>SignalR</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="80">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>WCF / REST</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="94">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>T-SQL / SQL Server</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="88">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>nUnit / specflow / karma</h4>
+                        </span>
+                    </div>
+                </div>
+                <div id='tools' class='skill-category'>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="93">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>TeamCity</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="90">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'><em>Git</em> / SVN</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="75">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>SCRUM</h4>
+                        </span>
+                    </div>
+                    <div class='chart-container'>
+                        <span class="chart" data-percent="85">
+                                <span class="percent"></span>
+                                <h4 class='chart-label'>Jira</h4>
+                        </span>
+                    </div>
+                </div>
+                <div id="arrow-container">
+                    <a class="up-arrow-wrap" href="#facts-wrapper" style="opacity: 1;">
+                        <span class="up-arrow"></span>
+                    </a>
+                    <a class="down-arrow-wrap" href="#timeline-wrapper" style="opacity: 1;">
+                        <span class="down-arrow"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline-wrapper">
+            <article  class="container">
+                <h2>
+                   timeline
+               </h2>
+                <hr class='header-line'>
+                <ul class="cbp_tmtimeline">
+				<li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                October 2015
+                            </span> 
+                            <span>
+                                full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/hm_small.png" alt="Some alt text">
+                            <h3>C# Developer</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Buying & Production department, Stockholm, Sweden
+                                </li>
+                            </ul>
+                            <h4>H&M</h4>
+                            <p>H & M Hennes & Mauritz AB (H&M) is a Swedish multinational retail-clothing company, known for its fast-fashion clothing for men, women, teenagers and children. H&M exists in 53 countries and as of 2013 employed around 116,000 people.</p>
+                            <h4>The role included...</h4>
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                    Delivering an internal website that would harmonize all sellprices on each country and channel
+                                </li>
+                                <li>
+                                    Developing advanced frontend grid systems using Angular and agGrid 
+                                </li>
+                                <li>
+                                    Being responsible for environmental matters such as Teamcity builds, git branching, Powershell scripting and deployments using Octopus deploy
+                                </li>
+                                <li>
+                                    Designing responsive, minimalistic user interfaces using Bootstrap and SASS
+                                </li>
+                                <li>
+                                    Being part of the whole project, including on-time shipping to production
+                                </li>
+                            </ul>
+                            <!-- <a href="files/CertificateOfEmploymentHM.pdf" download>Download employment certificate</a> -->
+                            <hr/>
+                            <table style="width:100%;color:#9F5050;">
+                                <tr>
+                                    <td style="text-align: left">Ann Thulstrup</td> 
+                                    <td style="text-align: center">+46 (0) ask erik</td>
+                                    <td style="text-align: right">ask erik@xxx.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+				<!-- -------------- -->
+				<li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                Februari 2015
+                            </span> 
+                            <span>
+                                full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/hm_small.png" alt="Some alt text">
+                            <h3>ASP.NET C# Developer</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Buying & Production department, Stockholm, Sweden
+                                </li>
+                            </ul>
+                            <h4>The role included...</h4>
+
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                    Delivering a windows desktop app that would be utilized by designers to overview product assortment
+                                </li>
+                                <li>
+                                    Pushing the limits of WPF in order to create rich user experiences for the end users
+                                </li>
+                                <li>
+                                    Being a part of the whole project, including on-time shipping to production
+                                </li>
+                                <li>
+                                    Taking an active part in the designing and decision-making regarding architectural matters within the code
+                                </li>
+                                <li>
+                                    Coding using a test-first approach that included unit tests, specflow tests and integration tests
+                                </li>
+                            </ul>
+                            <!-- <a href="files/CertificateOfEmploymentHM.pdf" download>Download employment certificate</a> -->
+                            <hr/>
+                            <table style="width:100%;color:#9F5050;">
+                                <tr>
+                                    <td style="text-align: left">Ann Thulstrup</td> 
+                                    <td style="text-align: center">+46 (0) ask erik</td>
+                                    <td style="text-align: right">ask erik@xxx.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+				<!-- -------------- -->
+				<li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                June 2014
+                            </span> 
+                            <span>
+                                full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/oaktonlogo.png" alt="Some alt text">
+                            <h3>ASP.NET C# Developer</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Oakton consulting, Melbourne, Australia
+                                </li>
+                            </ul>
+                            <h4>Oakton consulting</h4>
+                            <p>Oakton consulting is an Australian Consulting and technology firm founded in 1988. Their vision is to bring together business insight and technology solutions to give our customers a distinct advantage.</p>
+                            <h4>The role included...</h4>
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                    Creating a public website for Australia’s largest provider of salary packaging
+                                </li>
+                                <li>
+                                    Connecting Umbraco (open source CMS) to an ASP.NET MVC web application in order to make the site content fully dynamic
+                                </li>
+                                <li>
+                                    Developing the website using a strict mobile-first approach
+                                </li>
+                                <li>
+                                    Taking an active part in the rollout process
+                                </li>
+                                <li>
+                                    Using jQuery mobile in order to create a rich user experience
+                                </li>
+                            </ul>
+                            <!-- <a href="files/CertificateOfEmploymentHM.pdf" download>Download employment certificate</a> -->
+                            <hr/>
+                            <table style="width:100%;color:#9F5050;">
+                                <tr>
+                                    <td style="text-align: left">David Bary</td>
+                                    <td style="text-align: center">+61 (0) ask erik</td>
+                                    <td style="text-align: right">ask erik@xxx.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+				<!--------- -------------------------------->
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                May 2013
+                            </span> 
+                            <span>
+                                full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/hm_small.png" alt="Some alt text">
+                            <h3>WPF / UI Developer</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Buying & Production department, Stockholm, Sweden
+                                </li>
+                            </ul>
+                            <h4>The role included...</h4>
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                    Pushing the limits of WPF in order to create rich user experiences for the end users
+                                </li>
+                                <li>
+                                    Writing advanced unit- and integration tests that ensure code quality and high modularity between the various components in the system
+                                </li>
+                                <li>
+                                    Working with SCRUM in a team with distributed workforce, having some team members in Bangalore, India
+                                </li>
+                                <li>
+                                    Taking an active role in the full development life-cycle
+                                </li>
+                                <li>
+                                    Liaising with various service providers
+                                </li>
+                                <li>
+                                    Supporting junior members of the team, providing ongoing advice and guidance
+                                </li>
+                            </ul>
+                            <a href="files/CertificateOfEmploymentHM.pdf" download>Download employment certificate</a>
+                            <hr/>
+                            <table style="width:100%;color:#9F5050;">
+                                <tr>
+                                    <td style="text-align: left">Peter Pernäng</td>
+                                    <td style="text-align: center">+46 (0) ask erik</td>
+                                    <td style="text-align: right">ask erik@xxx.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                Sep 2011
+                            </span> 
+                            <span>
+                                full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/hm_small.png" alt="Some alt text">
+                            <h3>C# / Web developer</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Buying & Production department, Stockholm, Sweden
+                                </li>
+                                <li>
+                                    
+                                </li>
+                            </ul>
+                            <h4>The role included...</h4>
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                    Creating reports out of large datasets in SQL Server 2008/2010 and presenting the content in a complex web UI using HTML5 and jQuery
+                                </li>
+                                <li>
+                                    Developing responsive web sites using frameworks/libraries such as Bootstrap, Modernizr.js and Respond.js
+                                </li>
+                                <li>
+                                    Creating a customized build environment for continuous integration using TeamCity
+                                </li>
+                                <li>
+                                    Designing and developing a SOA-based solution used for tallying tax rates that are generated by different tax calculation services in the cloud
+                                </li>
+                                <li>
+                                    Developing multi-threaded C# applications that interfaced with point of sales (electronic fund transfer - EFT) solutions to generate bookkeeping data for sales transactions
+                                </li>
+                            </ul>
+                            <a href="files/CertificateOfEmploymentHM.pdf" download>Download employment certificate</a>
+                            <hr/>
+                            <table style="width:100%;color:#9F5050;">
+                                <tr>
+                                    <td style="text-align: left">Linus Bengtsson</td>
+                                    <td style="text-align: center">+46 (0) ask erik</td>
+                                    <td style="text-align: right">ask erik@xxx.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                Jun 2011
+                            </span> 
+                            <span>
+                                full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/UppsalaUniversity_small.png" alt="Some alt text">
+                            <h3>Bachelor program in Information Systems</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Uppsala university, Uppsala, Sweden
+                                </li>
+                                <li>
+                                    
+                                </li>
+                            </ul>
+                            <h4>Uppsala University</h4>
+                            <p>Uppsala University is a research university in Uppsala, Sweden, and is the oldest university in Sweden, founded in 1477. It is ranked among the best universities in Northern Europe in international rankings.<br> <a href="http://www.uu.se/en/" download>Read more</a></p>
+                            <h4>The program</h4>
+                            <p>The Bachelor program in Information Systems is a broad social science IT education for those who are interested in a modern, competitive education in a growing industry with good prospects. You learn how to develop accessible and effective information systems with a focus on system development. The bachelor program in Information Systems includes, e.g., courses in systems and software development, database design, web programming, internet-based systems and an optional subject for a term. <br> <a href="http://www.im.uu.se/education/bachelor-programme/?languageId=1" download>Read more</a></p>
+                            <h4>Thesis</h4>
+                            <p>Analysing Test-driven development - <em class='lead-text'> a qualitative study of TDD's impacts on software design</em></p>
+                            <p>See <a href="files/DegreeCertificate.pdf" download>degree certificate</a> for a list of all courses</p>
+                            <h4>Bonus courses:</h4>
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                    Business studies 30 credits (one semester of full-time studies) 
+                                    <ul id="timeline-item-info-list-sublist">
+                                        <li style='padding-left: 20px;list-style: none !important'>
+                                            -	Accounting 15, credits
+                                        </li>
+                                        <li style='padding-left: 20px;list-style: none !important'>
+                                            -	Marketing and Organisation, 15 credits
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Responsive web design, 7,5 credits
+                                </li>
+                                <li>
+                                    Programming in .NET: Advanced, 7,5 credits
+                                </li>
+                                <li>
+                                    Web Design with JavaScript and the Document Object Model, 7.5 credits
+                                </li>
+                                <li>
+                                    Markup languages and stylesheets, 7,5 credits
+                                </li>
+                            </ul>
+                            <a href="files/DegreeCertificate.pdf" download>Download employment certificate</a>
+                            <hr/>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                Jun 2011
+                            </span> 
+                            <span>
+                                Part time (while studying)
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/niscayah_small.png" alt="Some alt text">
+                            <h3>Operator</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Niscayah emergency service center, Stockholm, Sweden 
+                                </li>
+                            </ul>
+                            <h4>Uppsala University</h4>
+                            <p>Niscayah is a security integrator who offers complete security solutions for customers with high security demands within market segments such as banking, industrial, defence, airports, seaports and retail.</p>
+                            <h4>Main tasks:</h4>
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                   Receiving calls from customers
+                                </li>
+                                <li>
+                                   Programming alarm detectors
+                                </li>
+                            </ul>
+                            <hr/>
+                            <table style="width:100%;color:#9F5050;">
+                                <tr>
+                                    <td style="text-align: left">Åsa Persson</td>
+                                    <td style="text-align: center">+46 (0) ask erik</td>
+                                    <td style="text-align: right">ask erik@xxx.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                Jun 2008
+                            </span> 
+                            <span>
+                                Full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <img id="timeline-item-info-pic" src="img/brom_small.png" alt="Some alt text">
+                            <h3>Janitor</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    The Swedish Crime Victim Compensation and Support Authority, Umeå, Sweden 
+                                </li>
+                                <li>
+<!--                                    Sep 2003 - Jun 2006-->
+                                </li>
+                            </ul>
+                            <h4>The authority</h4>
+                            <p>The Swedish Crime Victim Compensation and Support Authority (Brottsoffermyndigheten) is subordinate to the Ministry of Justice and led by a Director-General appointed by the Government. Its overall aim is to look after the rights of all crime victims and to draw public attention to their needs and interests.</p>
+                            <h4>Main tasks:</h4>
+                            <ul id="timeline-item-info-list">
+                                <li>
+                                   Ordering office supplies and maintaining contact with suppliers 
+                                </li>
+                                <li>
+                                   Being responsible for mail processing and delivery services
+                                </li>
+                                <li>
+                                   Performing simple repairs 
+                                </li>
+                            </ul>
+                            <a href="files/CertificateOfEmployment.pdfom" download>Download employment certificate</a>
+                            <hr/>
+                            <table style="width:100%;color:#9F5050;">
+                                <tr>
+                                    <td style="text-align: left">Margareta Bergström</td>
+                                    <td style="text-align: center">+46 (0) ask erik</td>
+                                    <td style="text-align: right">ask erik@xxx.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                Jun 2006
+                            </span> 
+                            <span>
+                                Full time
+                            </span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>Natural science programme</h3>
+                            <ul id="timeline-item-info-left">
+                                <li>
+                                    Dragonskolan Highschool, Umeå, Sweden Sep
+                                </li>
+                            </ul>
+                            <hr/>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <time class="cbp_tmtime" datetime="2013-04-10 18:30">
+                            <span>
+                                Sep 1987
+                            </span> 
+                            <span></span>
+                        </time>
+                        <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                        <div class="cbp_tmlabel">
+                            <h3>Born in Umeå, Sweden!</h3>
+                        </div>
+                    </li>
+                </ul>
+                <div id="arrow-container">
+                    <a class="up-arrow-wrap" href="#skills-wrapper" style="opacity: 1;">
+                        <span class="up-arrow"></span>
+                    </a>
+                    <a class="down-arrow-wrap" href="#footer-wrapper" style="opacity: 1;">
+                        <span class="down-arrow"></span>
+                    </a>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <section id="footer-wrapper">
+                <div class="container">
+                    <article class="work">
+                        <img src="img/mail_white.png" style="width:62px;height:62px;" alt="Some alt text">
+                        <p>
+                            Mail me on<br>
+                            <a href="mailto:erik.sundell87@gmail.com">erik.sundell87@gmail.com</a>
+                        </p>
+                    </article>
+                    <article class="work">
+                        <img src="img/phone_white.png" style="width:62px;height:62px;" alt="Some alt text">
+                        <p>
+                            Call me on <br>
+                            <a href="tel:0737416629">073-7416629</a>
+                        </p>
+                    </article>
+                    <article class="work">
+                        <img src="img/linkedin.png" style="width:62px;height:62px;" alt="Some alt text">
+                        <p>
+                            Check out my <br>
+                            <a href="http://se.linkedin.com/pub/erik-sundell/76/b06/29a">linkedIn</a> profile
+                        </p>
+                    </article>
+                    <a class="top-arrow-wrap" href="#header" style="opacity: 1;">
+                        <span class="up-arrow"></span>
+                    </a>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
